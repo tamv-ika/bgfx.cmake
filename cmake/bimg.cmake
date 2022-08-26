@@ -39,7 +39,7 @@ target_include_directories( bimg
 		$<INSTALL_INTERFACE:${CMAKE_INSTALL_INCLUDEDIR}>)
 
 # bimg dependencies
-target_link_libraries( bimg bx astc-codec astc edtaa3 etc1 etc2 iqa squish nvtt pvrtc )
+target_link_libraries( bimg bx astc-codec astc edtaa3 etc1 etc2 iqa squish nvtt pvrtc tinyexr)
 
 # Put in a "bgfx" folder in Visual Studio
 set_target_properties( bimg PROPERTIES FOLDER "bgfx" )
