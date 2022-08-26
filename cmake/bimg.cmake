@@ -18,6 +18,7 @@ include( cmake/3rdparty/iqa.cmake )
 include( cmake/3rdparty/libsquish.cmake )
 include( cmake/3rdparty/nvtt.cmake )
 include( cmake/3rdparty/pvrtc.cmake )
+include( cmake/3rdparty/tinyexr.cmake )
 
 # Ensure the directory exists
 if( NOT IS_DIRECTORY ${BIMG_DIR} )
